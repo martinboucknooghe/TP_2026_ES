@@ -183,5 +183,10 @@ paracou6 %>%
 
 # Discussion
 
+- Cette étude met en évidence à la fois des similitudes et des différences entre la diversité de Paracou et BCI.
+
+- Les écarts observés peuvent s'expliquer par des différences de perturbation, de sols ou d'histoire biogéographique.
+
 - @MacArthur1967 montrent mathématiquement que la richesse spécifique (le nombre d'espèces) d'une île est un équilibre dynamique entre le taux d'immigration et le taux d'extinction, ce dernier étant directement dicté par la taille de l'île.
+
 - BCI est une forêt secondarisée [@Raby2017]. Sa diversité pourrait être augmentée selon la théorie de la perturbation intermédiaire [@Connell1978].
