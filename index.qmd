@@ -46,7 +46,7 @@ execute:
   # Show warnings
   warning: false
   # Cache code results
-  cache: false
+  cache: true
 # Template specific
 journalinfo: "Publication reference"
 archive: "DOI: xxx/xx"
@@ -140,7 +140,6 @@ paracou6 <- read_csv2("data/Paracou6.csv")
 library("vegan")
 data(BCI)
 library("divent")
-library("divent")
 BCI %>% 
   # Création d'un objet "abundances"
   as_abundances() %>% 
@@ -156,7 +155,7 @@ BCI %>%
 
 - Diversité Comparative
 
-::: {#.fig-diversite_comparaison}
+::: {#fig-diversite_comparaison}
 ```{r}
 paracou6 %>% 
   # Vecteur des noms d'espèce de chaque arbre
