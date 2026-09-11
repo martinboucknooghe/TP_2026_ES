@@ -123,6 +123,13 @@ set.seed(973)
 
 # Introduction
 
+La question de la diversité des forêts tropicales fascine les écologues parce qu'elle a des enjeux très importants [@Gibson2011].
+est qu'elle est difficile à comprendre [@Wright2002b].
+
+Des modèles ont été publiés [@Liang2022].
+
+A l'heure des menaces sur la biodiversité [@Fadrique2026], une connaissance plus détaillée de la diversité des forêts très étudiées est utile.
+
 # Matériels et méthodes
 
 - Présentation du site de Paracou.
