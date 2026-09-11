@@ -189,8 +189,13 @@ paracou6 %>%
   # Figure
   autoplot() +
   # Titre de la légende
-  labs(color = "Forêt", linetype = "Forêt")
+  labs(color = "Forêt", linetype = "Forêt") + 
+  # SUppresion du cartouche
+  theme(legend.position = "none")
 ```
+
+Profils de diversité de Paracou parcelle 6 (courbe bleue) et BCI (courbe rouge).
+La figure représente le nombre effectif d'espèces (nombre de Hill) en fonction de l'ordre de la diversité.
 :::
 
 # Discussion
