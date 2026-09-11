@@ -173,6 +173,7 @@ BCI %>%
 
 ::: {#fig-diversite_comparaison}
 ```{r}
+ggtheme_set()
 paracou6 %>% 
   # Vecteur des noms d'espèce de chaque arbre
   pull(spName) %>% 
