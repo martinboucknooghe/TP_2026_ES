@@ -15,13 +15,13 @@ author:
   - name: Martin Boucknooghe
     affiliations:
       - name: Université de Montpellier
-        department: Scientific Department
+        department: Département Scientifique
         address: Somewhere
-        city: City
-        country: Country
-        postal-code: 9999
+        city: Montpellier
+        country: France
+        postal-code: 34000
     orcid: 0000-0000-0000-0000
-    email: JD@example.org
+    email: martin.boucknooghe@etu.umontpellier.fr
     url: https://example.org/
 
 # Abstract and Keywords
