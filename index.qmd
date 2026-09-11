@@ -1,5 +1,5 @@
 ---
-title: "Etude comparative de la diversité des forêts de Paracou et BCI"
+title: "Étude comparative de la diversité des forêts de Paracou et de BCI"
 # Output formats
 format:
   stylisharticle-pdf:
@@ -26,7 +26,7 @@ author:
 
 # Abstract and Keywords
 abstract: |
-  This document is only a demo explaining how to use the Stylish Article template.
+  Cette étude compare la diversité de deux forêts tropicales intensivement étudiées, Paracou (Guyane française) et Barro Colorado Island (Panama).
 keywords: [template, demo]
 # Bibliography
 reference-section-title: References
@@ -123,9 +123,9 @@ set.seed(973)
 
 # Introduction
 
-- La question de la diversité des forêts tropicales fascine les écologues parce qu'elle a des enjeux très importants [@Gibson2011]. est qu'elle est difficile à comprendre [@Wright2002b].
-- Des modèles ont été publiés [@Liang2022].
-- A l'heure des menaces sur la biodiversité [@Fadrique2026], une connaissance plus détaillée de la diversité des forêts très étudiées est utile.
+- La diversité des forêts tropicales fascine les écologues en raison de ses enjeux majeurs [@Gibson2011].
+- Des modèles récents proposent des explications fondées sur la dynamique démographique [@Liang2022].
+- Dans un contexte de menaces croissantes sur la biodiversité [@Fadrique2026], nous comparons ici deux forêts tropicales intensivement étudiées, Paracou et BCI, afin de déterminer si des sites aux conditions contrastées présentent des patrons de diversité comparables.
 
 # Matériels et méthodes
 
