@@ -19,13 +19,14 @@ Les données d'inventaire de Paracou sont dans le dossier `data`.
 
 ```{r}
 library("tidyverse")
-paracou6 <- read_csv2("data/Paracou6.csv")
+paracou6 <- read_csv2("data/Paracou6.csv") 
+#read_csv2 optimisé par rapport à read.csv
 ```
 
 Vérification des données : carte des wapas.
 
 ```{r}
-paracou6 %>%
+paracou6 %>%                            #%>% Ctrl + Maj + M
   # Filter the wapa trees
   filter(Genus == "Eperua") %>%
   # Make a plot
@@ -55,7 +56,6 @@ Les données sont dans le package *vegan* [@Oksanen2012].
 ```{r}
 library("vegan")
 data(BCI)
-
 ```
 
 Vérification des données : courbe Rang-abondance [@Whittaker1965].
@@ -72,6 +72,9 @@ BCI %>%
   BCI_50ha
 # RAC
 autoplot(BCI_50ha)
+
+#diversité asymptotique --> diversité observé si l'inventaire avait été + important
+#Sp à 1 échantillon --> diversité asymptotique = ajout du nb de sp obs 1 fois au nb d'observations totales
 ```
 
 ## Profil de diversité
@@ -83,13 +86,14 @@ Valeur de la diversité en fonction de son ordre [@Tothmeresz1995; @Patil1982].
 ```{r}
 paracou6 %>% 
   # Vecteur des noms d'espèce de chaque arbre
-  pull(spName) %>% 
+  pull(spName) %>%                    #pull transforme une colonne en vecteur
   # Création d'un objet "abundances"
   as_abundances() %>% 
   # Profil de diversité
   profile_hill() %>% 
   # Figure
   autoplot()
+#Hill --> même diversité que les données, sp rares comptent bcp
 ```
 
 ### BCI
