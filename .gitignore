@@ -9,4 +9,4 @@
 *.tex
 *_files/
 .positai
-
+index_cache/
