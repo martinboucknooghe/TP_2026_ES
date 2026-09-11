@@ -165,6 +165,8 @@ BCI %>%
 
 ```
 
+- Valeur de la diversité en fonction de son ordre [@Tothmeresz1995; @Patil1982].
+
 # Résultats
 
 - Diversité Comparative
@@ -199,7 +201,7 @@ paracou6 %>%
 
 - Différences : les abondances relatives et la composition changent.
 
-- Les écarts observés peuvent s'expliquer par des différences de perturbation, de sols ou d'histoire biogéographique.
+- Les écarts observés s'explique par des différences biogéographique, de perturbation, de sols ou d'histoire .
 
 - @MacArthur1967 montrent mathématiquement que la richesse spécifique (le nombre d'espèces) d'une île est un équilibre dynamique entre le taux d'immigration et le taux d'extinction, ce dernier étant directement dicté par la taille de l'île.
 
