@@ -129,7 +129,17 @@ set.seed(973)
 
 # Matériels et méthodes
 
-- Présentation du site de Paracou.
+Présentation du site de Paracou.
+
+- Localisation : Le site se trouve à environ 50 kilomètres de Kourou.
+- Superficie : Il s'étend sur 500 hectares de forêt tropicale humide très riche en biodiversité.
+- Création : Le CIRAD a mis en place ce dispositif de recherche en 1982
+- Objectifs scientifiques
+  - Étude de la forêt : Les scientifiques observent le fonctionnement de la forêt tropicale et sa dynamique.
+
+  - Impact des perturbations : Le site teste des niveaux d'intervention humaine, comme l'exploitation forestière.
+
+  - Climat et carbone : Les chercheurs mesurent les échanges de gaz carbonique entre la forêt et l'atmosphère.
 
 ```{r}
 #| label: Paracou
@@ -185,8 +195,13 @@ paracou6 %>%
 
 - Cette étude met en évidence à la fois des similitudes et des différences entre la diversité de Paracou et BCI.
 
+- Similitudes : les deux sites présentent une forte richesse spécifique.
+
+- Différences : les abondances relatives et la composition changent.
+
 - Les écarts observés peuvent s'expliquer par des différences de perturbation, de sols ou d'histoire biogéographique.
 
 - @MacArthur1967 montrent mathématiquement que la richesse spécifique (le nombre d'espèces) d'une île est un équilibre dynamique entre le taux d'immigration et le taux d'extinction, ce dernier étant directement dicté par la taille de l'île.
 
-- BCI est une forêt secondarisée [@Raby2017]. Sa diversité pourrait être augmentée selon la théorie de la perturbation intermédiaire [@Connell1978].
+- BCI est une forêt secondarisée [@Raby2017].
+  Sa diversité pourrait être augmentée selon la théorie de la perturbation intermédiaire [@Connell1978].
